@@ -12,4 +12,4 @@ INSTRUCTIONS
 //Run the application via IntelliJ
 //To run created APIs please use Postman or SwaggerUI which dependency is added in pom.xml ( when you run the application
 visit "http://localhost:8080/swagger-ui.html#/")
-//Run the integration test in "test" folder inside the IntelliJ
+//Run the integration test in "test" folder inside IntelliJ
