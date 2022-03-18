@@ -84,6 +84,7 @@ public class UserServiceImplIT {
 
         UserDTO userDTO = new UserDTO();
         userDTO.setFirstName("Bob");
+        userDTO.setLastName("Juric");
 
         User savedUser = new User();
         savedUser.setFirstName(userDTO.getFirstName());
