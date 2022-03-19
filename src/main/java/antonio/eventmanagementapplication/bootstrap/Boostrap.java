@@ -150,7 +150,6 @@ public class Boostrap implements CommandLineRunner {
         sightseeingMeeting.getMeetingAtendee().add(user4);
         sightseeingMeeting.getMeetingAtendee().add(user1);
 
-
              meetingRepository.save(sightseeingMeeting);
 
 
@@ -161,12 +160,11 @@ public class Boostrap implements CommandLineRunner {
             ecoWorldConference.setDate("23-04-2022");
             ecoWorldConference.setLocation("Paris");
             ecoWorldConference.setId(1l);
-           ecoWorldConference.getUsers().add(user6);
-           ecoWorldConference.getUsers().add(user2);
-           ecoWorldConference.getMeetings().add(ecoMeeting);
-
-
-
+            ecoWorldConference.getUsers().add(user6);
+            ecoWorldConference.getUsers().add(user2);
+            ecoWorldConference.getUsers().add(user3);
+            ecoWorldConference.getUsers().add(user8);
+            ecoWorldConference.getMeetings().add(ecoMeeting);
 
             eventRepository.save(ecoWorldConference);
 
@@ -179,9 +177,8 @@ public class Boostrap implements CommandLineRunner {
             cyberSecurityConvention.setId(2L);
             cyberSecurityConvention.getUsers().add(user4);
             cyberSecurityConvention.getUsers().add(user3);
-
-
-
+            cyberSecurityConvention.getUsers().add(user6);
+            cyberSecurityConvention.getUsers().add(user2);
 
 
             eventRepository.save(cyberSecurityConvention);
@@ -196,6 +193,8 @@ public class Boostrap implements CommandLineRunner {
             dubaiDeveloperExpo.getUsers().add(user9);
             dubaiDeveloperExpo.getUsers().add(user8);
             dubaiDeveloperExpo.getUsers().add(user7);
+            dubaiDeveloperExpo.getUsers().add(user2);
+            dubaiDeveloperExpo.getUsers().add(user1);
 
 
             eventRepository.save(dubaiDeveloperExpo);
@@ -210,6 +209,10 @@ public class Boostrap implements CommandLineRunner {
             worldTelecommunicationCongress.setId(4L);
             worldTelecommunicationCongress.getUsers().add(user10);
             worldTelecommunicationCongress.getUsers().add(user5);
+            worldTelecommunicationCongress.getUsers().add(user3);
+            worldTelecommunicationCongress.getUsers().add(user1);
+            worldTelecommunicationCongress.getUsers().add(user4);
+            worldTelecommunicationCongress.getUsers().add(user2);
 
 
             eventRepository.save(worldTelecommunicationCongress);

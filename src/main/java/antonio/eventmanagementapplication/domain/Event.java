@@ -18,10 +18,10 @@ public class Event {
     private String date;
     private String location;
 
-    @OneToMany
+    @ManyToMany
 private Set<User> users= new HashSet<>();
 
-    @OneToMany
+    @ManyToMany
     private Set<Meeting>meetings = new HashSet<>();
 
 
