@@ -26,10 +26,10 @@ public class Boostrap implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
 
-        loadUsers();
+        loadData();
     }
 
-    private void loadUsers (){
+    private void loadData (){
 
             User user1 = new User();
             user1.setId(1L);

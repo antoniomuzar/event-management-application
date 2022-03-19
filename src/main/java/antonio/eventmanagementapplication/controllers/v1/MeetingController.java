@@ -1,5 +1,4 @@
 package antonio.eventmanagementapplication.controllers.v1;
-
 import antonio.eventmanagementapplication.api.v1.model.*;
 import antonio.eventmanagementapplication.services.MeetingService;
 import io.swagger.annotations.Api;

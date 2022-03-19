@@ -1,12 +1,7 @@
 package antonio.eventmanagementapplication.domain;
-
-import antonio.eventmanagementapplication.api.v1.model.EventDTO;
 import lombok.Data;
-
 import javax.persistence.*;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+
 
 @Entity
 @Data

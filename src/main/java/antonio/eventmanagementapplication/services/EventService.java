@@ -1,8 +1,5 @@
 package antonio.eventmanagementapplication.services;
-
 import antonio.eventmanagementapplication.api.v1.model.EventDTO;
-import antonio.eventmanagementapplication.api.v1.model.UserDTO;
-import antonio.eventmanagementapplication.domain.User;
 
 import java.util.List;
 
