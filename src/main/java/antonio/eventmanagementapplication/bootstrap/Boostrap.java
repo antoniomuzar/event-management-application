@@ -217,7 +217,7 @@ public class Boostrap implements CommandLineRunner {
 
             eventRepository.save(worldTelecommunicationCongress);
 
-        System.out.println("Loaded Users and Events");
+        System.out.println("Loaded Users, Events and Meetings loaded");
 
         }
     }
