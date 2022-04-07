@@ -74,10 +74,7 @@ public class UserServiceImplIT {
 
         assertEquals("Ivan", userDTO.getFirstName());
     }
-
-
-
-
+    
     @Test
     public void createNewUser() throws Exception {
 
